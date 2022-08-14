@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,15 +20,24 @@
 <body style="font-family: 'Ropa Sans',sans-serif;">
     <nav class="navbar navbar-expand-lg fixed-top navbar-light px-4 border-bottom" style="background-color: #e3f2fd;">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="img/logoo1.jpg" width="95" height="30"></a>
+          <a class="navbar-brand" href="home.php"><img src="img/logoo1.jpg" width="95" height="30"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5  text-center">
               <li class="nav-item">
-                <a class="nav-link text-primary" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link text-primary" aria-current="page" href="home.php">Home</a>
               </li>&nbsp;&nbsp;&nbsp;&nbsp;
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <?php echo $_SESSION['username']; ?>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="logout.php">logout</a></li>
+                </ul>
+              </li>
             </ul>
           </div>
         </div>
@@ -58,7 +71,7 @@
               <p class="card-text">Engaging performance and handling meet carefully considered everyday practicality in the newest incarnation of the brand’s iconic luxury mid-sized SUV. The Audi Q5 has long set the benchmark for its class and the impressive level of equipment coupled with superb design and execution once again has set the standard.</p>
             </div>
             <div class="card-body">
-              <a href="buynow.html" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=<?php echo "Audi Q5"; ?>" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.audi.in/in/web/en/models/q5" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -69,7 +82,7 @@
               <p class="card-text">The Audi Q8 combines the elegance of a four-door luxury coupé with the practical versatility of a large SUV. Richly equipped, comprehensively connected and tough enough for off-road duty, it is a confident companion for business and leisure. Expressive design with the new Singleframe grille and features from the original Audi quattro. Generous, elegant interior, touch operating concept and high-tech navigation: The Audi Q8 is a confident companion for business and leisure..</p>
             </div>
             <div class="card-body">
-              <a href="buynow.html" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=<?php echo "Audi Q8"; ?>" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.audi.in/in/web/en/models/q5" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -80,7 +93,7 @@
               <p class="card-text">Whether for adventures off the beaten track or everyday life in the big city – the Audi Q2 is a real all-rounder. Youthfully styled and with lots of high-tech on board, it combines progressive design, great driving pleasure and high functionality. Connectivity, infotainment are based on luxury class equipment. The polygonal design adds new facets to Audi’s design language. The bonnet is three-dimensionally embossed and the octagonal singleframe grille is positioned high. It gives the front of the Audi Q2 a clear look.</p>
             </div>
             <div class="card-body">
-              <a href="buynow.html" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=<?php echo "Audi Q2"; ?>" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.audi.in/in/web/en/models/q2/q2-2020.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -91,7 +104,7 @@
               <p class="card-text">In the Audi A8 L you have a luxurious and extra-large interior with particularly high seating comfort in the rear. Advanced driver assist systems² and networked systems make your everyday life noticeably easier.</p>
             </div>
             <div class="card-body">
-              <a href="buynow.html" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=<?php echo "Audi A8"; ?>" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.audi.in/in/web/en/models/a8/a8-l-2021.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -107,7 +120,7 @@
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.html" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?elec=<?php echo "Audi etron GT"; ?>" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.audi.in/in/web/en/models/e-tron-gt/audi-e-tron-gt" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -119,7 +132,7 @@
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.html" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?elec=<?php echo "Audi RS etron GT"; ?>" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.audi.in/in/web/en/models/e-tron-gt/audi-rs-e-tron-gt" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -131,7 +144,7 @@
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.html"  class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?elec=<?php echo "Audi etron "; ?>"  class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.audi.in/in/web/en/models/tron/" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -143,7 +156,7 @@
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.html" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?elec=<?php echo "Audi etron sportback"; ?>" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.audi.in/in/web/en/models/tron/" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -157,7 +170,7 @@
           
           <div class="row">
             <div class="col-sm">
-              <p class="text-center"><a href="about.html" class="txtunder">About Us</a>|<a href="#" class="txtunder">Contact</a> &nbsp; &copy;2022 NinjaSky.com</p>
+              <p class="text-center"><a href="about.php" class="txtunder">About Us</a>|<a href="#" class="txtunder">Contact</a> &nbsp; &copy;2022 NinjaSky.com</p>
             </div>
           </div>
           </footer>

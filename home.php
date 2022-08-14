@@ -25,7 +25,7 @@ if(!isset($_SESSION['username']))
   <header>
     <nav class="navbar navbar-expand-lg fixed-top navbar-light px-4 border-bottom" style="background-color: #e3f2fd;">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="img/logoo1.jpg" width="95" height="30"></a>
+          <a class="navbar-brand" href="home.php"><img src="img/logoo1.jpg" width="95" height="30"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -35,20 +35,18 @@ if(!isset($_SESSION['username']))
                 <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
               </li>&nbsp;&nbsp;&nbsp;&nbsp;
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="about.php">About</a>
               </li>&nbsp;&nbsp;&nbsp;&nbsp;
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   <?php echo $_SESSION['username']; ?>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Cars</a></li>
-                  <li><a class="dropdown-item" href="#bikes">Bikes</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="logout.php">logout</a></li>
                 </ul>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
+                    <a class="nav-link" href="contact.php">Contact Us</a>
                   </li>
               </li>
             </ul>
@@ -102,19 +100,19 @@ if(!isset($_SESSION['username']))
       </div>
       <div class="d-flex justify-content-evenly">
             <figure class="category-image" id="bikes">
-                <a href="category.html" class="d-display-block">
+                <a href="category.php" class="d-display-block">
                   <img src="img/bike2.jpg" width="150" height="150" class="my-3" style="border-radius: 10%;">
                 </a>
                 <figcaption class="text-center">Bike</figcaption>
             </figure>
             <figure class="category-image" id="cars">
-              <a href="category.html">
+              <a href="category.php">
                 <img src="img/car2.jpg" width="150" height="150" class="my-3" style="border-radius: 10%;">
               </a>
               <figcaption class="text-center">Car</figcaption>
             </figure>
             <figure class="category-image" id="electrics">
-              <a href="category.html">
+              <a href="category.php">
                 <img src="img/ev1.jpg" width="150" height="150" class="my-3" style="border-radius: 10%;">
               </a>
               <figcaption class="text-center">Electrical Vechicle</figcaption>
@@ -146,43 +144,43 @@ if(!isset($_SESSION['username']))
               <div class="row">
                 <div class="d-flex justify-content-evenly">
                   <figure class="category-image">
-                      <a href="audi.html" class="d-display-block">
+                      <a href="audi.php" class="d-display-block">
                         <img src="logo/audi.png" width="150" height="150" class="my-3" style="border-radius: 10%;">
                       </a>
                       <figcaption class="text-center">Audi</figcaption>
                   </figure>
                   <figure class="category-image">
-                    <a href="benz.html">
+                    <a href="benz.php">
                       <img src="logo/benz.png" width="150" height="150" class="my-3" style="border-radius: 10%;">
                     </a>
                     <figcaption class="text-center">Benz</figcaption>
                   </figure>
                   <figure class="category-image">
-                    <a href="bmw.html">
+                    <a href="bmw.php">
                       <img src="logo/bmw.png" width="150" height="150" class="my-3" style="border-radius: 10%;">
                     </a>
                     <figcaption class="text-center">BMW</figcaption>
                   </figure>
                   <figure class="category-image">
-                    <a href="ford.html">
+                    <a href="ford.php">
                       <img src="logo/ford.png" width="150" height="150" class="my-3" style="border-radius: 10%;">
                     </a>
                     <figcaption class="text-center">Ford</figcaption>
                   </figure>
                   <figure class="category-image">
-                    <a href="honda.html">
+                    <a href="honda.php">
                       <img src="logo/honda1.png" width="150" height="150" class="my-3" style="border-radius: 10%;">
                     </a>
                     <figcaption class="text-center">Honda</figcaption>
                   </figure>
                   <figure class="category-image">
-                    <a href="hyundai.html">
+                    <a href="hyundai.php">
                       <img src="logo/hyundai.png" width="150" height="150" class="my-3" style="border-radius: 10%;">
                     </a>
                     <figcaption class="text-center">Hyundai</figcaption>
                   </figure>
                   <figure class="category-image">
-                    <a href="jaguar.html">
+                    <a href="jaguar.php">
                       <img src="logo/jaguar.png" width="150" height="150" class="my-3" style="border-radius: 10%;">
                     </a>
                     <figcaption class="text-center">Jaguar</figcaption>
@@ -190,37 +188,37 @@ if(!isset($_SESSION['username']))
             </div>
             <div class="d-flex justify-content-evenly">
               <figure class="category-image">
-                  <a href="jeep.html" class="d-display-block">
+                  <a href="jeep.php" class="d-display-block">
                     <img src="logo/jeep.png" width="150" height="150" class="my-3" style="border-radius: 10%;">
                   </a>
                   <figcaption class="text-center">Jeep</figcaption>
               </figure>
               <figure class="category-image">
-                <a href="kia.html">
+                <a href="kia.php">
                   <img src="logo/kia.png" width="150" height="150" class="my-3" style="border-radius: 10%;">
                 </a>
                 <figcaption class="text-center">KIA</figcaption>
               </figure>
               <figure class="category-image">
-                <a href="landrover.html">
+                <a href="landrover.php">
                   <img src="logo/land.png" width="150" height="150" class="my-3" style="border-radius: 10%;">
                 </a>
                 <figcaption class="text-center">Land Rover</figcaption>
               </figure>
               <figure class="category-image">
-                <a href="mahindra.html">
+                <a href="mahindra.php">
                   <img src="logo/mahindra.png" width="150" height="150" class="my-3" style="border-radius: 10%;">
                 </a>
                 <figcaption class="text-center">Mahindra</figcaption>
               </figure>
               <figure class="category-image">
-                <a href="maruthi.html">
+                <a href="maruthi.php">
                   <img src="logo/maruthi1.png" width="150" height="150" class="my-3" style="border-radius: 10%;">
                 </a>
                 <figcaption class="text-center">Maruthi</figcaption>
               </figure>
               <figure class="category-image">
-                <a href="mg.html">
+                <a href="mg.php">
                   <img src="logo/mg.png" width="150" height="150" class="my-3" style="border-radius: 10%;">
                 </a>
                 <figcaption class="text-center">MG</figcaption>
@@ -258,37 +256,37 @@ if(!isset($_SESSION['username']))
               <div class="row">
                 <div class="d-flex justify-content-evenly">
                   <figure class="category-image">
-                      <a href="honda.html #bike" class="d-display-block">
+                      <a href="honda.php #bike" class="d-display-block">
                         <img src="logo/Honda.png" width="150" height="150" class="my-3" style="border-radius: 10%;">
                       </a>
                       <figcaption class="text-center">Honda</figcaption>
                   </figure>
                   <figure class="category-image">
-                    <a href="hero.html">
+                    <a href="hero.php">
                       <img src="logo/hero.png" width="150" height="150" class="my-3" style="border-radius: 10%;">
                     </a>
                     <figcaption class="text-center">Hero</figcaption>
                   </figure>
                   <figure class="category-image">
-                    <a href="bajaj.html">
+                    <a href="bajaj.php">
                       <img src="logo/bajaj.png" width="150" height="150" class="my-3" style="border-radius: 10%;">
                     </a>
                     <figcaption class="text-center">Bajaj</figcaption>
                   </figure>
                   <figure class="category-image">
-                    <a href="tvs.html">
+                    <a href="tvs.php">
                       <img src="logo/tvs.png" width="150" height="150" class="my-3" style="border-radius: 10%;">
                     </a>
                     <figcaption class="text-center">Tvs</figcaption>
                   </figure>
                   <figure class="category-image">
-                    <a href="yamaha.html">
+                    <a href="yamaha.php">
                       <img src="logo/yamaha.png" width="150" height="150" class="my-3" style="border-radius: 10%;">
                     </a>
                     <figcaption class="text-center">Yamaha</figcaption>
                   </figure>
                   <figure class="category-image">
-                    <a href="royal.html">
+                    <a href="royal.php">
                       <img src="logo/royal.png" width="150" height="150" class="my-3" style="border-radius: 10%;">
                     </a>
                     <figcaption class="text-center">Royal Enfield</figcaption>
@@ -296,7 +294,7 @@ if(!isset($_SESSION['username']))
             </div>
             <div class="d-flex justify-content-evenly">
               <figure class="category-image">
-                <a href="ktm.html">
+                <a href="ktm.php">
                   <img src="logo/ktm.png" width="150" height="150" class="my-3" style="border-radius: 10%;">
                 </a>
                 <figcaption class="text-center">Ktm</figcaption>
@@ -308,19 +306,19 @@ if(!isset($_SESSION['username']))
               <div class="row">
                 <div class="d-flex justify-content-evenly">
                   <figure class="category-image">
-                    <a href="audi.html #electric" class="d-display-block">
+                    <a href="audi.php #electric" class="d-display-block">
                       <img src="logo/audi.png" width="150" height="150" class="my-3" style="border-radius: 10%;">
                     </a>
                     <figcaption class="text-center">Audi</figcaption>
                 </figure>
                 <figure class="category-image">
-                  <a href="landrover.html #electric" class="d-display-block">
+                  <a href="landrover.php #electric" class="d-display-block">
                     <img src="logo/land.png" width="150" height="150" class="my-3" style="border-radius: 10%;">
                   </a>
                   <figcaption class="text-center">Lamd Rover</figcaption>
               </figure>
                   <figure class="category-image">
-                    <a href="mahindra.html #electric">
+                    <a href="mahindra.php #electric">
                       <img src="logo/mahindra.png" width="150" height="150" class="my-3" style="border-radius: 10%;">
                     </a>
                     <figcaption class="text-center">Mahindra</figcaption>
@@ -338,7 +336,7 @@ if(!isset($_SESSION['username']))
   
   <div class="row">
     <div class="col-sm">
-      <p class="text-center"><a href="about.html" class="txtunder">About Us</a>|<a href="#" class="txtunder">Contact</a> &nbsp; &copy;2022 NinjaSky.com</p>
+      <p class="text-center"><a href="about.php" class="txtunder">About Us</a>|<a href="#" class="txtunder">Contact</a> &nbsp; &copy;2022 NinjaSky.com</p>
     </div>
   </div>
   </footer>

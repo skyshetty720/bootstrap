@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,15 +19,24 @@
 <body style="font-family: 'Ropa Sans',sans-serif;">
     <nav class="navbar navbar-expand-lg fixed-top navbar-light px-4 border-bottom" style="background-color: #e3f2fd;">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="img/logoo1.jpg" width="95" height="30"></a>
+          <a class="navbar-brand" href="home.php"><img src="img/logoo1.jpg" width="95" height="30"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5  text-center">
               <li class="nav-item">
-                <a class="nav-link text-primary" aria-current="page" href="index.html">Home</a>
-              </li>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="nav-link text-primary" aria-current="page" href="home.php">Home</a>
+              </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <?php echo $_SESSION['username']; ?>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="logout.php">logout</a></li>
+                </ul>
+              </li>
             </ul>
           </div>
         </div>
@@ -59,7 +71,7 @@
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.html" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=<?php echo "Ford EcoSport"; ?>" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.carwale.com/ford-cars" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -70,7 +82,7 @@
               <p class="card-text">The Ford Endeavour is the best full-sized SUV in it class. It has the road presence, a fantastic ride quality, and even though it has a smaller engine compared to its competition, it doesn’t feel slow or boring. Additionally, it might not command as high a resale value as say the Toyota Fortuner, but its relatively upmarket interiors, better on-road dynamics, and the higher comfort co-efficient give it enough of an advantage.</p>
             </div>
             <div class="card-body">
-              <a href="buynow.html" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=<?php echo "Ford Endrover"; ?>" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.carwale.com/ford-cars" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -81,7 +93,7 @@
               <p class="card-text">The introduction of an automatic is the first update Figo has received since its 2019 facelift. Although it hasn’t been able to set the sales numbers rolling, the Figo comes across as an overall package for someone looking to buy a family hatchback that’s safe, built well and has a good amount of driving fun thrown in the mix. The addition of the two-pedal setup was a much-needed one as all its competitors already have an automatic option, even if it’s an AMT in the least. The 1.2-litre torque converter might not impress with its outright performance but is adequate for everyday usability.</p>
             </div>
             <div class="card-body">
-              <a href="buynow.html" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=<?php echo "Ford EcoSport"; ?>" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.carwale.com/ford-cars" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -105,7 +117,7 @@
   
   <div class="row">
     <div class="col-sm">
-      <p class="text-center"><a href="about.html" class="txtunder">About Us</a>|<a href="#" class="txtunder">Contact</a> &nbsp; &copy;2022 NinjaSky.com</p>
+      <p class="text-center"><a href="about.php" class="txtunder">About Us</a>|<a href="#" class="txtunder">Contact</a> &nbsp; &copy;2022 NinjaSky.com</p>
     </div>
   </div>
   </footer>

@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,15 +19,24 @@
 <body style="font-family: 'Ropa Sans',sans-serif;">
     <nav class="navbar navbar-expand-lg fixed-top navbar-light px-4 border-bottom" style="background-color: #e3f2fd;">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="img/logoo1.jpg" width="95" height="30"></a>
+          <a class="navbar-brand" href="home.php"><img src="img/logoo1.jpg" width="95" height="30"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5  text-center">
               <li class="nav-item">
-                <a class="nav-link text-primary" aria-current="page" href="index.html">Home</a>
-              </li>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="nav-link text-primary" aria-current="page" href="home.php">Home</a>
+              </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <?php echo $_SESSION['username']; ?>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="logout.php">logout</a></li>
+                </ul>
+              </li>
             </ul>
           </div>
         </div>
@@ -62,7 +74,7 @@
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.html" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=<?php echo "Jeep Compass"; ?>" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.jeep-india.com/new-compass.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -73,7 +85,7 @@
               <p class="card-text">The new Jeep Meridian embodies a unique duality of characteristics; it is big yet sporty, elegant yet rugged, and bold yet sophisticated. Also featuring the iconic seven-slot Jeep grille, the new Jeep Meridian is truly design redefined.</p>
             </div>
             <div class="card-body">
-              <a href="buynow.html" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=<?php echo "Jeep Meridian"; ?>" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.jeep-india.com/new-jeep-meridian.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -85,7 +97,7 @@
             </p>
             </div>
             <div class="card-body">
-              <a href="buynow.html" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=<?php echo "Jeep® Wrangler Unlimited"; ?>" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.jeep-india.com/wrangler-jl.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -98,7 +110,7 @@
   
   <div class="row">
     <div class="col-sm">
-      <p class="text-center"><a href="about.html" class="txtunder">About Us</a>|<a href="#" class="txtunder">Contact</a> &nbsp; &copy;2022 NinjaSky.com</p>
+      <p class="text-center"><a href="about.php" class="txtunder">About Us</a>|<a href="#" class="txtunder">Contact</a> &nbsp; &copy;2022 NinjaSky.com</p>
     </div>
   </div>
   </footer>

@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,15 +19,24 @@
 <body style="font-family: 'Ropa Sans',sans-serif;">
     <nav class="navbar navbar-expand-lg fixed-top navbar-light px-4 border-bottom" style="background-color: #e3f2fd;">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="img/logoo1.jpg" width="95" height="30"></a>
+          <a class="navbar-brand" href="home.php"><img src="img/logoo1.jpg" width="95" height="30"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5  text-center">
               <li class="nav-item">
-                <a class="nav-link text-primary" aria-current="page" href="index.html">Home</a>
-              </li>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="nav-link text-primary" aria-current="page" href="home.php">Home</a>
+              </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <?php echo $_SESSION['username']; ?>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="logout.php">logout</a></li>
+                </ul>
+              </li>
             </ul>
           </div>
         </div>
@@ -58,7 +70,7 @@
           <p class="card-text">A first look at the New Amaze, and you'll notice a new attitude, a fresh confidence. The strikingly handsome Sleek Solid Wing Face Front Chrome Grille with Fine Chrome Moulding Lines. The winsome gaze of sleek, stylish LED Projector and DRL Handlamps. The uniquely stunning new Premium C-Shaped Rear Combination Lamps. Mesmerise the world with your brilliance</p>
         </div>
         <div class="card-body">
-          <a href="buynow.html" class="card-link btn btn-primary">Buy Now</a>
+          <a href="buynow.php?car=<?php echo "New Honda Amaze"; ?>" class="card-link btn btn-primary">Buy Now</a>
           <a href="https://www.hondacarindia.com/honda-amaze" class="card-link btn btn-danger" target="_blank">Know More</a>
         </div>
       </div>
@@ -68,7 +80,7 @@
           <h5 class="card-title"> Honda City</h5>
           <p class="card-text">The Honda City is smartly styled with dignified stature and superior technological prowess. A wide, upper-grill in the front presents the signature Honda Solid Wing Face, and elevates the car to a position of prominence. This bold front is taken to the next level with the integration of Full LED Headlamps(with 9 LED array inline shell, integrated LED DRL, L-Shaped LED Turn Indicator), a first in the segment. In the rear of the Honda City, Z-shaped 3D Wrap Around LED Tail Lamps with Uniform Edge Light & LED Side Marker Lights continue to highlight the sleek design of the car.</div>
         <div class="card-body">
-          <a href="buynow.html" class="card-link btn btn-primary">Buy Now</a>
+          <a href="buynow.php?car=<?php echo "Honda City"; ?>" class="card-link btn btn-primary">Buy Now</a>
           <a href="https://www.hondacarindia.com/honda-city-5th-generation" class="card-link btn btn-danger" target="_blank">Know More</a>
         </div>
       </div>
@@ -78,7 +90,7 @@
           <h5 class="card-title"> Honda WR-V</h5>
           <p class="card-text">It is waiting to take on more uneven roads. It is ready to jump into longer drives, after all there's cruise control. It's open to more friends, yes there's room. With a stylish sunroof and an infotainment loaded digipad 2.0, it is itching to navigate itself to bigger adventures. To the tune of electrifying music and that breeze from above. It is here to fly past boredom in a cloud of dust. It is here to take on anything and dare everything.</p></div>
         <div class="card-body">
-          <a href="buynow.html" class="card-link btn btn-primary">Buy Now</a>
+          <a href="buynow.php?car=<?php echo "Honda WR-V"; ?>" class="card-link btn btn-primary">Buy Now</a>
           <a href="https://www.hondacarindia.com/honda-wrv" class="card-link btn btn-danger" target="_blank">Know More</a>
         </div>
       </div>
@@ -91,7 +103,7 @@
             Like a sunroof in a hatchback, or the smoothest in CVT. The fact that you expect the absolute
             best in everything you do proves that the Honda Jazz is made just for you.</p></div>
         <div class="card-body">
-          <a href="buynow.html" class="card-link btn btn-primary">Buy Now</a>
+          <a href="buynow.php?car=<?php echo " Honda Jazz"; ?>" class="card-link btn btn-primary">Buy Now</a>
           <a href="https://www.hondacarindia.com/honda-jazz" class="card-link btn btn-danger"  target="_blank">Know More</a>
         </div>
       </div>
@@ -109,7 +121,7 @@
             Explore your city. Plan the ideal adventurous weekend or take a detour on your way back home from work. It’s time to explore life with every ride with the new CB200X.</p>
         </div>
         <div class="card-body">
-          <a href="buynow.html" class="card-link btn btn-primary">Buy Now</a>
+          <a href="buynow.php?bike=<?php echo "CB-200 X"; ?>" class="card-link btn btn-primary">Buy Now</a>
           <a href="https://www.honda2wheelersindia.com/CB200X/" class="card-link btn btn-danger" target="_blank">Know More</a>
         </div>
        </div>
@@ -121,7 +133,7 @@
                         The all-new Honda Hornet 2.0 is all about letting people live their dream. The fierce machine keeps you ahead of others. It is a manifestation of style, safety and power. It turns heads and converts the road into a steady blur in seconds. It’s pure exhilaration at a flick of your wrist.</p>
         </div>
         <div class="card-body">
-          <a href="buynow.html" class="card-link btn btn-primary">Buy Now</a>
+          <a href="buynow.php?bike=<?php echo "HORNET 2.0"; ?>" class="card-link btn btn-primary">Buy Now</a>
           <a href="https://www.honda2wheelersindia.com/Hornet2-0" class="card-link btn btn-danger" target="_blank">Know More</a>
         </div>
        </div>
@@ -132,7 +144,7 @@
           <p class="card-text">Honda presents the all new Shine with amazing eSP Technology and eco-friendly BS-VI Engine that keeps emission in check.  Its ACG Starter removes gear meshing noise and helps start the engine without a jolt. And its 5-Speed Transmission ensures that your ride is always amazingly smooth.</p>
         </div>
         <div class="card-body">
-          <a href="buynow.html" class="card-link btn btn-primary">Buy Now</a>
+          <a href="buynow.php?bike=<?php echo "Shine"; ?>" class="card-link btn btn-primary">Buy Now</a>
           <a href="https://www.honda2wheelersindia.com/shine-BS-VI" class="card-link btn btn-danger" target="_blank">Know More</a>
         </div>
        </div>
@@ -145,7 +157,7 @@
   
   <div class="row">
     <div class="col-sm">
-      <p class="text-center"><a href="about.html" class="txtunder">About Us</a>|<a href="#" class="txtunder">Contact</a> &nbsp; &copy;2022 NinjaSky.com</p>
+      <p class="text-center"><a href="about.php" class="txtunder">About Us</a>|<a href="#" class="txtunder">Contact</a> &nbsp; &copy;2022 NinjaSky.com</p>
     </div>
   </div>
   </footer>

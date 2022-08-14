@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,15 +19,24 @@
 <body style="font-family: 'Ropa Sans',sans-serif;">
     <nav class="navbar navbar-expand-lg fixed-top navbar-light px-4 border-bottom" style="background-color: #e3f2fd;">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="img/logoo1.jpg" width="95" height="30"></a>
+          <a class="navbar-brand" href="home.php"><img src="img/logoo1.jpg" width="95" height="30"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5  text-center">
               <li class="nav-item">
-                <a class="nav-link text-primary" aria-current="page" href="index.html">Home</a>
-              </li>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="nav-link text-primary" aria-current="page" href="home.php">Home</a>
+              </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <?php echo $_SESSION['username']; ?>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="logout.php">logout</a></li>
+                </ul>
+              </li>
             </ul>
           </div>
         </div>
@@ -60,7 +72,7 @@
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.html" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.html?car=<?php echo "BMW X7"; ?>" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.bmw.in/en/all-models/x-series/x7/2019/bmw-x7-inspire.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -71,7 +83,7 @@
               <p class="card-text">When the roof opens, at the latest, that’s when there are no more limits to driving pleasure in the BMW Z4. A roadster that could not be any better: open, sporty and uncompromising. With powerful driving dynamics and a progressive design, it has only one aim: the freedom between the road and the open sky.</p>
             </div>
             <div class="card-body">
-              <a href="buynow.html" class="card-link btn btn-primary">Buy Now</a>
+              <a href="?car=<?php echo "BMW Z4"; ?>" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.bmw.in/en/all-models/z-series/Z4/2018/bmw-z4-highlights.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -82,7 +94,7 @@
               <p class="card-text">Heaven is like a drive that elevates you, it doesn't just take you places but to experiences as well. The BMW 7 Series delivers that experience of self-assured presence, exceptional performance and maximum comfort. Imagined, designed and crafted for individuals who value every moment.</p>
             </div>
             <div class="card-body">
-              <a href="buynow.html" class="card-link btn btn-primary">Buy Now</a>
+              <a href="?car=<?php echo "BMW 7 SERIES SEDAN"; ?>" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.bmw.in/en/all-models/7-series/sedan/2021/bmw-7-series-sedan-highlights.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -93,7 +105,7 @@
               <p class="card-text">he all-new BMW M4 Competition Coupé with M xDrive offers a fascinating combination of aesthetics, character and typical M athleticism. With numerous technologies derived from motorsport, it guarantees maximum driving dynamics – both in everyday use and on the racetrack.</p>
             </div>
             <div class="card-body">
-              <a href="buynow.html" class="card-link btn btn-primary">Buy Now</a>
+              <a href="?car=<?php echo "BMW M4 Competition Coupé with M xDrive"; ?>" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.bmw.in/en/all-models/m-series/m4-coupe/2020/bmw-4-series-coupe-mxdrive-overview.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>

@@ -15,6 +15,7 @@ session_start();
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body> 
 
@@ -96,12 +97,12 @@ if(isset($_POST['submit']))
 
                 <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
 
-                <form action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" class="mx-1 mx-md-4" method="POST">
+                <form action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" class="mx-1 mx-md-4" method="POST" onsubmit="return validation()">
 
                   <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
-                      <input type="text" id="form3Example1c" class="form-control" name="username" required />
+                      <input type="text" id="user" class="form-control" name="username" required /><span id="names" class="text-danger font-weight-bold"></span><br>
                       <label class="form-label" for="form3Example1c">Your Name</label>
                     </div>
                   </div>
@@ -109,7 +110,7 @@ if(isset($_POST['submit']))
                   <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-phone fa-lg me-3 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
-                      <input type="text" id="form3Example1c" class="form-control" name="mobile" required />
+                      <input type="text" id="mbl" class="form-control" name="mobile" required /><span id="mbl" class="text-danger font-weight-bold"></span><br>
                       <label class="form-label" for="form3Example1c">Mobile Number</label>
                     </div>
                   </div>
@@ -118,7 +119,7 @@ if(isset($_POST['submit']))
                   <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-at fa-lg me-3 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
-                      <input type="email" id="form3Example3c" class="form-control" name="email" required />
+                      <input type="email" id="eml" class="form-control" name="email" required /><span id="emails" class="text-danger font-weight-bold"></span><br>
                       <label class="form-label" for="form3Example3c">Your Email</label>
                     </div>
                   </div>
@@ -126,7 +127,7 @@ if(isset($_POST['submit']))
                   <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
-                      <input type="password" id="form3Example4c" class="form-control" name="password" required />
+                      <input type="password" id="pss" class="form-control" name="password" required /><span id="passs" class="text-danger font-weight-bold"></span><br>
                       <label class="form-label" for="form3Example4c">Password</label>
                     </div>
                   </div>
@@ -134,7 +135,7 @@ if(isset($_POST['submit']))
                   <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-key fa-lg me-3 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
-                      <input type="password" id="form3Example4cd" class="form-control" name="cpassword" required />
+                      <input type="password" id="cpss" class="form-control" name="cpassword" required />
                       <label class="form-label" for="form3Example4cd">Repeat your password</label>
                     </div>
                   </div>
@@ -164,5 +165,46 @@ if(isset($_POST['submit']))
     </div>
   </div>
 </section>
+<script type="text/javascript">
+    function validation()
+    {
+      var user=document.getElementById('user').value;
+      var mbl=document.getElementById('mbl').value;
+      var pass=document.getElementById('pss').value;
+      var emails=document.getElementById('emails').value;
+      if(user.length<=2)
+      {
+        document.getElementById('names').innerHTML="Enter Proper Name!!!";
+        return false;
+      }
+      if(!isNaN(user))
+      {
+        document.getElementById('names').innerHTML="Enter Only The Character!!!";
+        return false; 
+      }
+      if(pass.length<=6)
+      {
+        document.getElementById('passs').innerHTML="Enter The Password more than 6 letters!!!";
+        return false;
+      }
+      if(isNaN(mbl))
+      {
+        document.getElementById('mbl').innerHTML="Enter Digits Only!!!";
+        return false;    
+      }
+      if(mbl.length!=10)
+      {
+        document.getElementById('mbl').innerHTML="Enter Digits Only!!!";
+        return false;    
+      }
+      if(emails.charAt(emails.length-4)!='.')
+      {
+        document.getElementById('mbl').innerHTML="Enter Proper ID Only!!!";
+        return false;    
+      }
+
+    }
+
+</script>
 </body>
 </html>
