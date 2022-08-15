@@ -129,7 +129,7 @@ session_start();
             </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?elec=<?php echo "Audi Q2"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?elec=<?php echo "eVerito"; ?>" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.mahindraelectric.com/vehicles/everito/" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -142,7 +142,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?elec=<?php echo "Audi Q2"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?elec=<?php echo "e20 plus"; ?>" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.landrover.in/vehicles/new-range-rover-sport/home.php" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
         </div>

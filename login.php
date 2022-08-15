@@ -116,7 +116,7 @@ session_start();
           <div class="text-center  mt-4 pt-2">
             <input type="submit" class="btn btn-primary btn-lg" name="submit"
               style="padding-left: 4.5rem; padding-right: 4.5rem;" value="Login"/>
-            <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="#!"
+            <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="regis.php"
                 class="link-danger">Register</a></p>
           </div>
 

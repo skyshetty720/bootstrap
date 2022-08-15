@@ -73,7 +73,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.html?bike=<?php echo "KTM 250 DUKE"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?bike=<?php echo "KTM 250 DUKE"; ?>" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.ktm.com/en-in/models/naked-bike/ktm-250-duke-2020.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -86,7 +86,7 @@ session_start();
             </p>
             </div>
             <div class="card-body">
-              <a href="buynow.html?bike=<?php echo "KTM 390 ADVENTURE"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?bike=<?php echo "KTM 390 ADVENTURE"; ?>" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.ktm.com/en-in/models/travel/ktm-390-adventure2022.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -99,7 +99,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.html?bike=<?php echo "KTM RC 200 "; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?bike=<?php echo "KTM RC 200 "; ?>" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.ktm.com/en-in/models/supersport/ktm-rc-200-2022.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>

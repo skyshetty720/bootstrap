@@ -62,7 +62,8 @@ if(isset($_POST['submit']))
         {
                 ?>
                     <script>
-                            alert("insertion not successful!!!!!");
+                            //alert("insertion not successful!!!!!");
+                            location.replace("login.php");
                     </script>
                 <?php
 
@@ -146,7 +147,7 @@ if(isset($_POST['submit']))
                   </div>
 
                   <div class="form-check d-flex justify-content-center mb-5">
-                      Have an account?<a href="#!">Login here</a>
+                      Have an account?<a href="login.php">Login here</a>
                   </div>
 
                 </form>
