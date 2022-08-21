@@ -68,7 +68,7 @@ session_start();
                 $regs=mysqli_real_escape_string($con,$_POST['reg']);
 
 
-                $insquery=" insert into buynow(model, yrs, varient, kmss, regs,user) values('$models','$yrs','$varient','$kmss','$regs','$user')";
+                $insquery=" insert into buynow1(model, yrs, varient, kmss, regs,user) values('$models','$yrs','$varient','$kmss','$regs','$user')";
                 $inquery=mysqli_query($con,$insquery);
                 if($inquery)
                 {

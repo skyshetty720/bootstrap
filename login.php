@@ -44,7 +44,17 @@ session_start();
         {
             $email=$_POST['email'];
             $password=$_POST['password'];
-
+            if($email=="admin@admin.com" && $password=="12345")
+            {
+              $_SESSION['username']="Admin";
+              ?>
+                    <script>
+                        location.replace("admin.php");
+                    </script>
+                    <?php
+            }
+      else
+      {
             $emailsearch="select * from registration where email='$email' ";
             $query=mysqli_query($con,$emailsearch);
 
@@ -75,7 +85,7 @@ session_start();
             {
                 echo "invalid user";
             }
-
+      }
         }
 
 
