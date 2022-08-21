@@ -72,7 +72,7 @@ session_start();
             </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Range Rover Sports"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Range Rover Sports" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.landrover.in/vehicles/range-rover-sport-2021/index.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -85,7 +85,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Land Rover Discovery"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Land Rover Discovery" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.landrover.in/vehicles/discovery/index.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
         </div>
@@ -103,7 +103,7 @@ session_start();
             </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?elec=<?php echo "Range Rover Evoque"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Range Rover Evoque" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.landrover.in/vehicles/range-rover-evoque/index.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -116,7 +116,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?elec=<?php echo "Land Rover Sport"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Land Rover Sport" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.landrover.in/vehicles/new-range-rover-sport/index.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
         </div>
@@ -129,7 +129,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?elec=<?php echo "Land Rover Defender"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Land Rover Defender" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.landrover.in/vehicles/defender/index.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
         </div>

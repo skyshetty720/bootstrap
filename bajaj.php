@@ -73,7 +73,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?bike=<?php echo "NS160"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=NS160" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.bajajauto.com/bikes/pulsar/pulsar-ns160" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -84,7 +84,7 @@ session_start();
               <p class="card-text">Get, set, vroom with this power cruiser. Enjoy higher power and torque with overhead camshaft, liquid cooled and fuel injected engine. Max Power: 29.4 kW (40 PS) @ 8800 rpm | Max Torque: 35 Nm @ 6500 rpm.</p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?bike=<?php echo "Dominar"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Dominar" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.bajajauto.com/bikes/dominar/dominar-400" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -97,7 +97,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?bike=<?php echo "Avenger 160 Street"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Avenger 160 Street" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.bajajauto.com/bikes/avenger/avenger-street-160" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -108,7 +108,7 @@ session_start();
               <p class="card-text">A powerful 115 cc DTS-i engine with great pickup and no compromise on mileage.</p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?bike=<?php echo "CT 110X"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=CT 110X" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.bajajauto.com/bikes/ct/ct-110x" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>

@@ -71,7 +71,7 @@ session_start();
             </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Kia Sonet"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Kia Sonet" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.kia.com/in/our-vehicles/sonet/showroom.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -82,7 +82,7 @@ session_start();
               <p class="card-text">You can’t put a price on peace of mind. Kia Connect lets you drive with confidence, knowing someone can be there to help, no matter what happens out on the road.</p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Kia Seltos"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Kia Seltos" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.kia.com/in/our-vehicles/seltos/showroom.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -94,7 +94,7 @@ session_start();
             </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Kia Carnival"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Kia Carnival" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.kia.com/in/our-vehicles/carnival/showroom.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -106,7 +106,7 @@ session_start();
             </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Kia Carens"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Kia Carens" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.kia.com/in/our-vehicles/carens/showroom.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>

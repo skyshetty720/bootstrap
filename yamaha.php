@@ -71,7 +71,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?bike=<?php echo "R15 S"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=R15 S" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.yamaha-motor-india.com/yamaha-r15s.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -85,7 +85,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?bike=<?php echo "MT-15"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=MT-15" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.yamaha-motor-india.com/yamaha-mt-15-ver2.0.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -98,7 +98,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?bike=<?php echo "FZ-FI"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=FZ-FI" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.yamaha-motor-india.com/yamaha-fz-fi.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -111,7 +111,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?bike=<?php echo "Fascino 125"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Fascino 125" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.yamaha-motor-india.com/yamaha-fascino125fi-new.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>

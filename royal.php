@@ -73,7 +73,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?bike=<?php echo "Classic 350"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Classic 350" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.royalenfield.com/in/en/motorcycles/classic-350/" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -86,7 +86,7 @@ session_start();
             </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?bike=<?php echo "Bullet"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Bullet" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.royalenfield.com/in/en/motorcycles/bullet-models/bullet-350/" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -99,7 +99,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?bike=<?php echo "Himalayan"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Himalayan" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.royalenfield.com/in/en/motorcycles/himalayan/" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>

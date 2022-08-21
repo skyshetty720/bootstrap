@@ -59,7 +59,7 @@ session_start();
 
                 if($dbpass===$password)
                 {
-
+                  setcookie("email",$email,time()+(86400*30),"/");
                     ?>
                     <script>
                         location.replace("home.php");

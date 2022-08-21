@@ -74,7 +74,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Jeep Compass"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Jeep Compass" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.jeep-india.com/new-compass.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -85,7 +85,7 @@ session_start();
               <p class="card-text">The new Jeep Meridian embodies a unique duality of characteristics; it is big yet sporty, elegant yet rugged, and bold yet sophisticated. Also featuring the iconic seven-slot Jeep grille, the new Jeep Meridian is truly design redefined.</p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Jeep Meridian"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Jeep Meridian" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.jeep-india.com/new-jeep-meridian.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -97,7 +97,7 @@ session_start();
             </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Jeep® Wrangler Unlimited"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Jeep® Wrangler Unlimited" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.jeep-india.com/wrangler-jl.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>

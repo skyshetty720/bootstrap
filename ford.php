@@ -71,7 +71,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Ford EcoSport"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Ford EcoSport" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.carwale.com/ford-cars" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -82,7 +82,7 @@ session_start();
               <p class="card-text">The Ford Endeavour is the best full-sized SUV in it class. It has the road presence, a fantastic ride quality, and even though it has a smaller engine compared to its competition, it doesn’t feel slow or boring. Additionally, it might not command as high a resale value as say the Toyota Fortuner, but its relatively upmarket interiors, better on-road dynamics, and the higher comfort co-efficient give it enough of an advantage.</p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Ford Endrover"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Ford Endrover" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.carwale.com/ford-cars" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -93,7 +93,7 @@ session_start();
               <p class="card-text">The introduction of an automatic is the first update Figo has received since its 2019 facelift. Although it hasn’t been able to set the sales numbers rolling, the Figo comes across as an overall package for someone looking to buy a family hatchback that’s safe, built well and has a good amount of driving fun thrown in the mix. The addition of the two-pedal setup was a much-needed one as all its competitors already have an automatic option, even if it’s an AMT in the least. The 1.2-litre torque converter might not impress with its outright performance but is adequate for everyday usability.</p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Ford EcoSport"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Ford EcoSport" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.carwale.com/ford-cars" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>

@@ -70,7 +70,7 @@ session_start();
             </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "ALTO"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=ALTO" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.marutisuzuki.com/alto" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -81,7 +81,7 @@ session_start();
               <p class="card-text">The 2021 Swift speaks performance, style and dynamism from every angle. Its new dual-tone sporty design is sharp and purposeful, and accentuated by the Sporty Cross Mesh Grille with Bold Chrome Accent, precision cut two-tone alloy wheels and LED projector headlamps. Limitless Thrills have never looked this good!</p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Swift"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Swift" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.marutisuzuki.com/swift" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -93,7 +93,7 @@ session_start();
             </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Dzire"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Dzire" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.marutisuzuki.com/dzire" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -105,7 +105,7 @@ session_start();
             </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Ciaz"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Ciaz" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.nexaexperience.com/ciaz" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>

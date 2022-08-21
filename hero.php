@@ -71,7 +71,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?bike=<?php echo "XTREME 200"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=XTREME 200" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.heromotocorp.com/en-in/xtreme200s/" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -82,7 +82,7 @@ session_start();
               <p class="card-text">Take your adventures to the next level with a light-weight all-terrain motorcycle that’s perfect for everyday rides as well as your action on the weekends. The Xpulse 200 is equipped with tech features as well!.</p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?bike=<?php echo "Xpulse"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Xpulse" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.heromotocorp.com/en-in/xpulse200/" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -95,7 +95,7 @@ session_start();
                 </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?bike=<?php echo "Splendor ismart"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Splendor ismart" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.heromotocorp.com/en-in/splendor-ismart-bsvi/" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -106,7 +106,7 @@ session_start();
               <p class="card-text">that automatically adjusts vehicle performance depending on riding conditions</p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?bike=<?php echo "Maestro edge"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Maestro edge" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.heromotocorp.com/en-in/new-maestro-edge-110/" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>

@@ -71,7 +71,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "AMG A 45 S 4MATIC"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=AMG A 45 S 4MATIC" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.mercedes-benz.co.in/passengercars/mercedes-benz-cars/" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -82,7 +82,7 @@ session_start();
               <p class="card-text">Effortless everyday life in the EQS is defined by the adaptive digital interior. Experience it intuitively with the MBUX augmented reality head-up display and the MBUX Interior Assistant, and continue with stress-free travel thanks to easy charging via Mercedes me Charge and short charging stops at IONITY's fast charging points – even without charging costs* in the first year thanks to IONITY Unlimited. Green Charging meanwhile ensures the subsequent use of electricity from renewable resources by means of guarantees of origin.</p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Mercedes-Benz EQS"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Mercedes-Benz EQS" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.mercedes-benz.co.in/passengercars/mercedes-benz-cars/models/eqs/saloon-v297/pad/stage.module.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -93,7 +93,7 @@ session_start();
               <p class="card-text">The new Mercedes-Benz C-Class embodies the development of contemporary luxury. Innovations have their place in the sporty C-Class interior. A vertical 30.2 cm (11.9 inch) touchscreen makes the centre console the digital centre of the interior. The trim elements continue the contemporary design idiom. Showcase the interior with a total of 64 colours and 10 moods; the ambient lighting gives you almost unlimited choices for lighting schemes.</p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Mercedes-Benz C-Class"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Mercedes-Benz C-Class" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.mercedes-benz.co.in/passengercars/mercedes-benz-cars/models/c-class/" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -104,7 +104,7 @@ session_start();
               <p class="card-text">The new Mercedes-Maybach S-Class defines ultimate luxury like never before. The highest-quality materials, excellent workmanship, outstanding comfort as well as innovative technologies and your personal assistant in the form of the intelligent MBUX infotainment system herald a new era of driving.</p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Mercedes-Maybach S-Class"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Mercedes-Maybach S-Class" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.audi.in/in/web/en/models/a8/a8-l-2021.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>

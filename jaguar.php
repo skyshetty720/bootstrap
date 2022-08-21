@@ -73,7 +73,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Jaguar F-PACE"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Jaguar F-PACE" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.jaguar.in/jaguar-range/f-pace/index.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -84,7 +84,7 @@ session_start();
               <p class="card-text">F-PACE SVR’s design includes larger air intakes, bonnet vents, side fender vents and rear spoiler - all working to increase downforce and reduce drag. The result: better performance and better handling</p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Jaguar F-PACE SVR"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Jaguar F-PACE SVR" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.jaguar.in/jaguar-range/f-pace/index.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -96,7 +96,7 @@ session_start();
             </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "JAGUAR XF"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=JAGUAR XF" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.jaguar.in/jaguar-range/xf/index.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -108,7 +108,7 @@ session_start();
             </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "JAGUAR F‑TYPE"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=JAGUAR F‑TYPE" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.jaguar.in/jaguar-range/f-type/index.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>

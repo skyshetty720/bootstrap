@@ -71,7 +71,7 @@ session_start();
             </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Scorpio-N"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Scorpio-N" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://auto.mahindra.com/suv/scorpio-n" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -84,7 +84,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Thar"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Thar" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://auto.mahindra.com/suv/thar" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
         </div>
@@ -97,7 +97,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Bolero"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Bolero" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://auto.mahindra.com/suv/thar" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
         </div>
@@ -110,7 +110,7 @@ session_start();
             </p>
           </div>
           <div class="card-body">
-            <a href="buynow.php?car=<?php echo "Marazzo"; ?>" class="card-link btn btn-primary">Buy Now</a>
+            <a href="buynow.php?car=Marazzo" class="card-link btn btn-primary">Buy Now</a>
             <a href="https://auto.mahindra.com/suv/marazzo" class="card-link btn btn-danger" target="_blank">Know More</a>
           </div>
       </div>
@@ -129,7 +129,7 @@ session_start();
             </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?elec=<?php echo "eVerito"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=eVerito" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.mahindraelectric.com/vehicles/everito/" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -142,7 +142,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?elec=<?php echo "e20 plus"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=e20 plus" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.landrover.in/vehicles/new-range-rover-sport/home.php" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
         </div>

@@ -72,7 +72,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.html?car=<?php echo "BMW X7"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.html?car=BMW X7" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.bmw.in/en/all-models/x-series/x7/2019/bmw-x7-inspire.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -83,7 +83,7 @@ session_start();
               <p class="card-text">When the roof opens, at the latest, that’s when there are no more limits to driving pleasure in the BMW Z4. A roadster that could not be any better: open, sporty and uncompromising. With powerful driving dynamics and a progressive design, it has only one aim: the freedom between the road and the open sky.</p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "BMW Z4"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=BMW Z4" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.bmw.in/en/all-models/z-series/Z4/2018/bmw-z4-highlights.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -94,7 +94,7 @@ session_start();
               <p class="card-text">Heaven is like a drive that elevates you, it doesn't just take you places but to experiences as well. The BMW 7 Series delivers that experience of self-assured presence, exceptional performance and maximum comfort. Imagined, designed and crafted for individuals who value every moment.</p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "BMW 7 SERIES SEDAN"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=BMW 7 SERIES SEDAN" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.bmw.in/en/all-models/7-series/sedan/2021/bmw-7-series-sedan-highlights.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -105,7 +105,7 @@ session_start();
               <p class="card-text">he all-new BMW M4 Competition Coupé with M xDrive offers a fascinating combination of aesthetics, character and typical M athleticism. With numerous technologies derived from motorsport, it guarantees maximum driving dynamics – both in everyday use and on the racetrack.</p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "BMW M4 Competition Coupé with M xDrive"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=BMW M4 Competition Coupé with M xDrive" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.bmw.in/en/all-models/m-series/m4-coupe/2020/bmw-4-series-coupe-mxdrive-overview.html" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>

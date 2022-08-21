@@ -71,7 +71,7 @@ session_start();
             </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "ASTOR"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=ASTOR" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.mgmotor.co.in/vehicles/mgastor" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -82,7 +82,7 @@ session_start();
               <p class="card-text">THE MG HECTOR 2021 WITH ITS EVOLVED EXTERIORS IS BOUND TO ADD GRACE AND FLAIR TO YOUR DRIVES</p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Hector"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Hector" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.mgmotor.co.in/vehicles/mghector" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>

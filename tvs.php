@@ -72,7 +72,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?bike=<?php echo "Apache RR 310"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Apache RR 310" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.tvsmotor.com/tvs-apache/rr-310" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -85,7 +85,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?bike=<?php echo "Apache RTR 165"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Apache RTR 165" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.tvsmotor.com/tvs-apache/rp-165" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -98,7 +98,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?bike=<?php echo "TVS XL100 HEAVY DUTY BSVI"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=TVS XL100 HEAVY DUTY BSVI" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.tvsmotor.com/tvs-xl100" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -111,7 +111,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?bike=<?php echo "NTORQ"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=NTORQ" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.tvsmotor.com/tvs-ntorq/features" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>

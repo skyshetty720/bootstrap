@@ -44,81 +44,46 @@ session_start();
     </header> <br><br><br>
     <center>
     <?php
-     include 'dbcon.php';
-         #$model="null";   
-        $car=isset($_GET['car'])?$_GET['car'] : NULL;
-        #echo $car;
-        $elec=isset($_GET['elec'])?$_GET['elec'] : NULL;
-        #echo $car;
-        $bike=isset($_GET['bike'])?$_GET['bike'] : NULL;
-        #echo $car;
-        if($car)
-        {
-          global $model;
-          $model=$car;
-        }elseif($elec)
-        {
-          global $model;
-          $model=$elec;
-        }else
-        {
-          global $model;
-          $model=$bike;
-        }
-
-        
-        
-        if(isset($_POST['submit']))
-          { 
-             $cars=isset($_GET['car'])?$_GET['car'] : NULL;
-            #echo $car;
-            $elecs=isset($_GET['elec'])?$_GET['elec'] : NULL;
-            #echo $car;
-            $bikes=isset($_GET['bike'])?$_GET['bike'] : NULL;
-            #echo $car;
-        if($cars)
-        {
-          $models=$cars;
-        }elseif($elecs)
-        {
-          $models=$elecs;
-        }else
-        {
-          $models=$bikes;
-        }
-        echo $models;
-                global $models;
-                #echo " ".$_POST['yr'];
-                #$models=$GLOBALS['model'];
-                #$models=mysqli_real_escape_string($con, $_POST['model']);
-                $yrs=mysqli_real_escape_string($con, $_POST['yr']);
+      include ('dbcon.php');
+    $models=$_GET['car'];
+    //echo $models;
+    if(isset($_POST['submit']))
+    { 
+      // $models=$_GET['car'];
+      if($_POST['yr']==" " && $_POST['varient']==" " && $_POST['kms']==" " && $_POST['reg']==" ")
+      {
+        ?>
+                    <script>
+                            alert("select the all the field!!");
+                    </script>
+                <?php
+      }
+      else
+      {
+        $user=$_SESSION['username'];
+      $models=$_POST['model'];
+       $yrs=mysqli_real_escape_string($con, $_POST['yr']);
                 $varient=mysqli_real_escape_string($con,$_POST['varient']);
                 $kmss=mysqli_real_escape_string($con,$_POST['kms']);
                 $regs=mysqli_real_escape_string($con,$_POST['reg']);
 
 
-                $insquery=" insert into buynow(model, yrs, varient, kmss, regs) values('$models','$yrs','$varient','$kmss','$regs')";
+                $insquery=" insert into buynow(model, yrs, varient, kmss, regs,user) values('$models','$yrs','$varient','$kmss','$regs','$user')";
                 $inquery=mysqli_query($con,$insquery);
                 if($inquery)
                 {
-                  echo "inserted!!";
-                  echo $GLOBALS['models'];
-                  echo $models;
+                  header('location:buy.php');
                 }
+    }
 
-
-              }
-
-      ?>
-             
-
-               
+     }
+?>
       <h3>Enter The Details Of Vechicle</h3>
       <hr class="w-50 m-auto"/><br>
       <form action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="POST">
       <h4>Name Of The Model</h4>
       <select class="form-control " style="width:250px;" name="model">
-      <option value="<?php $model; ?>" selected disabled><?php echo $model; ?></option>  
+      <option value="<?php echo $models; ?>" selected><?php echo $models; ?></option>  
     </select>
     <br>
     <h4>Model Year</h4>
@@ -188,10 +153,7 @@ session_start();
 <br>
 <input type="submit" name="submit" value="Confirm Order" class="btn btn-danger" />
 </form>
-<?php 
 
-
-?>
 </center>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>

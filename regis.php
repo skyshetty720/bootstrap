@@ -55,15 +55,15 @@ if(isset($_POST['submit']))
             {
                 ?>
                     <script>
-                            alert("insertion successful!!!!!");
+                            location.replace("login.php");
                     </script>
                 <?php
         }else
         {
                 ?>
                     <script>
-                            //alert("insertion not successful!!!!!");
-                            location.replace("login.php");
+                            alert("insertion not successful!!!!!");
+                            
                     </script>
                 <?php
 

@@ -72,7 +72,7 @@ session_start();
               </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Grand i10 NIOS"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Grand i10 NIOS" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.hyundai.com/in/en/find-a-car/grand-i10-nios/highlights" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -83,7 +83,7 @@ session_start();
               <p class="card-text">The all-new i20 has been inspired from Hyundai’s design DNA of “sensuous sportiness” with a dynamic look on the outside & luxurious feeling on the inside. Its breathtaking presence casts a magnetic charm; while its connected and intuitive features enhance your comfort and convenience. Truly a class above the rest.</p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "i20"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=i20" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.hyundai.com/in/en/find-a-car/i20/highlights" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -95,7 +95,7 @@ session_start();
             </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Creta"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Creta" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.hyundai.com/in/en/find-a-car/creta/highlights" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
@@ -107,7 +107,7 @@ session_start();
             </p>
             </div>
             <div class="card-body">
-              <a href="buynow.php?car=<?php echo "Venue"; ?>" class="card-link btn btn-primary">Buy Now</a>
+              <a href="buynow.php?car=Venue" class="card-link btn btn-primary">Buy Now</a>
               <a href="https://www.hyundai.com/in/en/find-a-car/venue/highlights" class="card-link btn btn-danger" target="_blank">Know More</a>
             </div>
           </div>
